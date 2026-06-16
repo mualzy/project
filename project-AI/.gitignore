@@ -1,0 +1,55 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv_cuda121/
+.venv_real_cpu/
+env/
+venv/
+ENV/
+
+# Local IDE and tooling
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datasets and generated artifacts
+data/
+datasets/
+checkpoints/
+logs/
+results/
+archive/
+analysis-output/
+archived_previous_runs/
+data_summary/
+weights/
+test_result/
+wandb/
+
+# Model and experiment binaries
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Local documents and media not needed for source distribution
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Secrets and machine-local settings
+.env
+.env.*
+*.pem
+*.key

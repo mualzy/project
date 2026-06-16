@@ -1,0 +1,14 @@
+.git
+.venv
+.venv_cuda121
+.venv_real_cpu
+__pycache__
+*.pyc
+data
+data_summary
+checkpoints
+logs
+results
+reports_materials
+env
+notes

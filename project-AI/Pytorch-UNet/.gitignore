@@ -1,0 +1,12 @@
+*.pyc
+data/
+__pycache__/
+checkpoints/
+*.pth
+*.jpg
+venv/
+.venv/
+.venv_cuda121/
+.venv_real_cpu/
+.idea/
+wandb/
